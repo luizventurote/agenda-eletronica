@@ -1,4 +1,7 @@
-package agenda;
+package negocio;
+
+import java.util.Date;
+import java.util.List;
 
 public class Compromisso {
     
@@ -81,9 +84,5 @@ public class Compromisso {
         this.contato = contato;
     }
 
-  
-
-  
-     
   
 }
