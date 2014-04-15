@@ -1,4 +1,4 @@
-package agenda;
+package negocio;
 
 import java.util.List;
 
@@ -76,6 +76,26 @@ public class Contato {
     }
     
     /*==========METODOS==========*/
+  private void addContato(String nome,String email, String rua,String numero, String bairro, String cidade, 
+          String uf, String nomeEmpresa,String ruaEmpresa,String numeroEmpresa, String bairroEmpresa, String cidadeEmpresa,
+          String ufEmpresa, List telefone){
+      
+      
+  }
+  private void altContato(Contato contato, String nome,String email, String rua,String numero, String bairro, String cidade, 
+          String uf, String nomeEmpresa,String ruaEmpresa,String numeroEmpresa, String bairroEmpresa, String cidadeEmpresa,
+          String ufEmpresa, List telefone){
+      
+  }
   
+  private void excContato(Contato contato){
+      
+  }
   
+  private List consultContato(String nomeContato){
+      List contatos = null;
+      
+      return contatos;
+      
+  }
 }

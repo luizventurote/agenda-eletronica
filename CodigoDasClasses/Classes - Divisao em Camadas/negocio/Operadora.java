@@ -1,4 +1,6 @@
-package agenda;
+package negocio;
+
+import java.util.List;
 
 public class Operadora {
     private int idOperadora;
@@ -40,9 +42,5 @@ public class Operadora {
     public void setCodOperadora(String codOperadora) {
         this.codOperadora = codOperadora;
     }
-    
-    /*==========METODOS==========*/
-
-    
     
 }
