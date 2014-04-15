@@ -1,4 +1,6 @@
-package agenda;
+package negocio;
+
+import java.util.List;
 
 public class Telefone {
     private int idTelefone;
@@ -51,4 +53,19 @@ public class Telefone {
     
     /*==========METODOS==========*/
 
+    public void addTelefone(Contato contato, String numero){
+        
+    }
+    
+    public void altTelefone(Telefone tel){
+        
+    }
+    public void excTelefone(Telefone tel){
+        
+    } 
+    public List consultTelefone(Contato contato){
+        List listaTelefones = null;
+        return listaTelefones;
+    }
+    
 }

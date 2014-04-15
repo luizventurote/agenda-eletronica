@@ -1,4 +1,4 @@
-package agenda;
+package negocio;
 
 public class Empresa {
     
@@ -30,6 +30,4 @@ public class Empresa {
     }
     
     
-    /*==========METODOS==========*/
-
 }
